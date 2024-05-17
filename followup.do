@@ -32,8 +32,7 @@ To download and save the public-use LMFs to your hard drive, follow these steps:
          In this example, the data file is saved in the folder, "C:\PUBLIC USE DATA", 
 		 and the data file is saved as "<SURVEY>_MORT_2019_PUBLIC.DAT". 
 */
-di "What is your directory?" _request(workdir)
-cd "$workdir"
+cd "C:\Users\Vrsha\Documents\Documents\SPH_classes\340.700\HW7"
 
 //cd "C:\PUBLIC USE DATA"    // SET DIRECTORY WHERE DATA ARE LOCATED, E.G. "C:\PUBLIC USE DATA"
 * global SURVEY <SURVEY>     // REPLACE <SURVEY> WITH RELEVANT SURVEY NAME (IN ALL CAPS)
